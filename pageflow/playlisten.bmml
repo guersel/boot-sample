@@ -1,0 +1,192 @@
+<mockup version="1.0" skin="sketch" measuredW="1444" measuredH="1256" mockupW="1193" mockupH="1245">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="251" y="11" w="1193" h="1245" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::HRule" x="429" y="784" w="764" h="-1" measuredW="100" measuredH="5" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Paragraph" x="428" y="809" w="200" h="44" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>@%202015%20Epic%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::TextArea" x="428" y="96" w="185" h="52" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EPIC-Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::LinkBar" x="662" y="809" w="-1" h="-1" measuredW="539" measuredH="25" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Newsletter%2C%20Kontakt%2C%20FAQ%2C%20Impressum%2C%20Datenschutz%20%26%20Rechtliches%2C%20AGB</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Link" x="1140" y="96" w="-1" h="-1" measuredW="45" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logout</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Link" x="429" y="207" w="-1" h="-1" measuredW="62" measuredH="25" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Playlisten</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Link" x="429" y="247" w="-1" h="-1" measuredW="77" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespots</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Link" x="428" y="336" w="-1" h="-1" measuredW="83" measuredH="25" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Einstellungen</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Link" x="429" y="376" w="-1" h="-1" measuredW="72" measuredH="25" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Epic-News</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Link" x="427" y="167" w="-1" h="-1" measuredW="69" measuredH="25" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dashboard</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Link" x="429" y="290" w="-1" h="-1" measuredW="77" measuredH="25" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Epic-Player</text>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::StickyNote" x="1182" y="356" w="248" h="213" measuredW="109" measuredH="123" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Die%20Werbespots%20werden%20untereinander%20aufgelistet%20und%20koennen%20ueber%20ein%20+-Icon%20oder%20drag%20and%20drop%20in%20die%20Playlist%20verschoben%20werden%20%28die%20Darstellung%20auf%20Youtube%20kann%20als%20Referenz%20herangezogen%20werden%29</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Canvas" x="1028" y="215" w="145" h="410" measuredW="100" measuredH="70" zOrder="12" locked="false" isInGroup="-1"/>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Image" x="1034" y="225" w="43" h="37" measuredW="77" measuredH="79" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="1086" y="223" w="82" h="43" measuredW="149" measuredH="25" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespot-Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Image" x="1034" y="289" w="43" h="37" measuredW="77" measuredH="79" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Label" x="1086" y="287" w="82" h="43" measuredW="149" measuredH="25" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespot-Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Image" x="1034" y="357" w="43" h="37" measuredW="77" measuredH="79" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::Label" x="1086" y="355" w="82" h="43" measuredW="149" measuredH="25" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespot-Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::Image" x="1034" y="427" w="43" h="37" measuredW="77" measuredH="79" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="44" controlTypeID="com.balsamiq.mockups::Label" x="1086" y="425" w="82" h="43" measuredW="149" measuredH="25" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespot-Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::VRule" x="704" y="221" w="-1" h="487" measuredW="5" measuredH="100" zOrder="22" locked="false" isInGroup="-1"/>
+    <control controlID="46" controlTypeID="com.balsamiq.mockups::Image" x="725" y="234" w="43" h="37" measuredW="77" measuredH="79" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="47" controlTypeID="com.balsamiq.mockups::Label" x="777" y="232" w="82" h="43" measuredW="149" measuredH="25" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespot-Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Image" x="725" y="307" w="43" h="37" measuredW="77" measuredH="79" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::Label" x="777" y="305" w="82" h="43" measuredW="149" measuredH="25" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespot-Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="50" controlTypeID="com.balsamiq.mockups::Image" x="725" y="383" w="43" h="37" measuredW="77" measuredH="79" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="51" controlTypeID="com.balsamiq.mockups::Label" x="777" y="381" w="82" h="43" measuredW="149" measuredH="25" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespot-Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::Image" x="725" y="459" w="43" h="37" measuredW="77" measuredH="79" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Label" x="777" y="457" w="82" h="43" measuredW="149" measuredH="25" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespot-Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Image" x="725" y="539" w="43" h="37" measuredW="77" measuredH="79" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Label" x="777" y="537" w="82" h="43" measuredW="149" measuredH="25" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespot-Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Image" x="725" y="626" w="43" h="37" measuredW="77" measuredH="79" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Label" x="777" y="624" w="82" h="43" measuredW="149" measuredH="25" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespot-Information</text>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::VRule" x="899" y="220" w="-1" h="487" measuredW="5" measuredH="100" zOrder="35" locked="false" isInGroup="-1"/>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::TextInput" x="806" y="121" w="110" h="-1" measuredW="77" measuredH="29" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Some%20text</text>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="705" y="123" w="-1" h="-1" measuredW="94" measuredH="25" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Playlist%20Name%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Label" x="706" y="165" w="-1" h="-1" measuredW="51" measuredH="25" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>L%E4nge%3A%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Label" x="764" y="164" w="-1" h="-1" measuredW="42" measuredH="25" zOrder="39" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>34%3A23</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

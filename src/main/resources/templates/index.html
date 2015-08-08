@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html layout:decorator="layouts/standard">
+
+
+<span layout:fragment="pageHead">
+	<link  rel="import" th:href="@{components/signinBox.html}" />
+</span>
+
+<body>
+	<div class="row" layout:fragment="content">
+		<div class="small-6 columns">
+			<h2>Epic - Epische Werbung für Ihr Unternehmen</h2>
+			<p>Epic ermöglich für Klein- und Mittelunternehmen die
+				kostengünstige Werbeschaltung auf alle Epic-Monitoren, sowie auf
+				allen Monitoren der Stadt Wien, die auf unserer Monitorkarte
+				aufgelistet sind.</p>
+		</div>
+		<div class="small-6 columns">
+			<h2>Gewinn durch eigenen Monitor</h2>
+			<p>Ermoeglichen Sie anderen Benutzern von Epic, Ihre Monitore
+				fuer Werbeschaltungen zu nutzen. Somit koennen andere
+				kostenguenstige Werbung schalten und Sie koennen ohne zusaetzlichen
+				Aufwand Gewinn machen</p>
+		</div>
+
+		<div>
+			<my-element></my-element>
+		</div>
+	</div>
+</body>
+</html>

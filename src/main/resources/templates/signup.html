@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html layout:decorator="layouts/standard">
+	<div layout:fragment="content">	
+	
+		<div class="row" ng-app="signupForm">
+			<div class="small-6 small-centered columns">
+			    <form action="#" th:action="@{/signup}" th:object="${person}" method="post">
+			        		
+			        	<div class="row">
+							<div class="small-6 columns">
+								<strong th:text="#{signup.formTitle}"></strong>
+							</div>
+						</div>	
+												
+						<!-- Username -->
+			            <div class="row">
+			                <div class="small-12 columns">
+			                	<span th:if="${#fields.hasErrors('username')}" th:errors="*{username}" class="errorMessage"></span>
+			                    <input id="username" type="text" th:field="*{username}" th:placeholder="#{general.username}"
+			                                     th:errorclass="fieldError" />
+			                </div>
+			            </div>
+			            
+			            <!-- Email -->
+			            <div class="row">
+			                <div class="small-12 columns">
+			                	<span th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="errorMessage"></span>
+			                    <input id="email" type="text" th:field="*{email}" th:placeholder="#{general.email}"/>
+			                </div>
+			            </div>
+			            
+			            <!-- Password -->
+			            <div class="row">
+			                <div class="small-12 columns">
+			                	<span th:if="${#fields.hasErrors('password')}" th:errors="*{password}" class="errorMessage"></span>
+			                    <input id="password" type="password" th:field="*{password}" th:placeholder="#{general.password}"/>
+			                </div>
+			            </div>
+			            
+			            <!-- Password confirmation -->
+			            <div class="row">
+			                <div class="small-12 columns">
+			                	<span th:if="${#fields.hasErrors('passwordConfirmation')}" th:errors="*{passwordConfirmation}" class="errorMessage"></span>
+			                    <input id="passwordConfirmation" type="password" th:field="*{passwordConfirmation}" th:placeholder="#{general.passwordConfirmation}"/>
+			                </div>
+			            </div>
+			            
+			            <!-- Submit button -->
+			            <div class="row">
+			                <div class="small-12 columns">
+			                    <button id="signup" class="tiny button" >
+			                      <span th:text="#{signup.submitButton}"/>
+			                    </button>
+			                </div>
+			            </div>
+			    </form>
+		    </div>
+		</div>		
+	</div>
+		
+		
+</html>

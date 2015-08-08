@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:replace="fragments/head :: default (title=#{general.epic})">
+
+</head>
+
+<body>
+
+	<div class="row">
+		<div class="small-3 columns">
+			<h1>
+				<img src="http://placehold.it/400x100&amp;text=Logo" />
+			</h1>
+		</div>
+		<div class="small-9 columns">
+			<ul th:if="${beans.securityUtil.getCurrentUser() == null}" class="button-group right">
+				<li><a href="#" class="button" th:href="@{/signin}" th:text="#{general.signinButton}">Sign in</a></li>
+				<li><a href="#" class="button" th:href="@{/signup}" th:text="#{general.signupButton}">Sign up</a></li>
+			</ul>
+			<ul th:if="${beans.securityUtil.getCurrentUser() != null}" class="inline-list right">
+				<li><a href="#" th:href="@{/logout}" th:text="#{general.logout}">Logout</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="large-9 push-3 columns" layout:fragment="content">
+
+		</div>
+		
+		<div class="large-3 pull-9 columns">
+
+			<ul class="side-nav">
+				<li><a href="#" th:href="@{/playlist}">Playlists</a></li>
+				<li><a href="#">Section 2</a></li>
+			</ul>
+
+			<p>
+				<img src="http://placehold.it/320x240&amp;text=Ad" />
+			</p>
+
+		</div>
+
+	</div>
+
+
+	<footer th:replace="fragments/footer :: default"> </footer>
+</body>
+</html>

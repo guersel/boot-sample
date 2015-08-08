@@ -1,0 +1,30 @@
+<!DOCTYPE dataset SYSTEM "dataset.dtd">
+<dataset>
+    <table name="person">
+        <column>id</column>
+        <column>username</column>
+        <column>email</column>
+        <column>encrypted_password</column>
+        <column>enabled</column>
+        <column>confirmed</column>
+        <row>
+            <value>1</value>
+            <value>test</value>
+            <value>test@gmx.at</value>
+            <value>jqkwerjkqjklsdkfasddfs</value>
+            <value>false</value>
+            <value>true</value>
+        </row>
+    </table>   
+     
+    <table name="person_role">
+    	<column>id</column>
+    	<column>person_id</column>
+    	<column>role_id</column>
+    	<row>
+    		<value>1</value>
+    		<value>1</value>
+    		<value>1</value>
+    	</row>
+    </table>
+</dataset>

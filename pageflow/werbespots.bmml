@@ -1,0 +1,159 @@
+<mockup version="1.0" skin="sketch" measuredW="1449" measuredH="1254" mockupW="1193" mockupH="1245">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="256" y="9" w="1193" h="1245" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::HRule" x="430" y="1010" w="764" h="-1" measuredW="100" measuredH="5" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6710886</color>
+      </controlProperties>
+    </control>
+    <control controlID="14" controlTypeID="com.balsamiq.mockups::Paragraph" x="429" y="1035" w="200" h="44" measuredW="200" measuredH="140" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>@%202015%20Epic%20</text>
+      </controlProperties>
+    </control>
+    <control controlID="19" controlTypeID="com.balsamiq.mockups::TextArea" x="428" y="96" w="185" h="52" measuredW="200" measuredH="140" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>EPIC-Logo</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="com.balsamiq.mockups::LinkBar" x="663" y="1035" w="-1" h="-1" measuredW="539" measuredH="25" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Newsletter%2C%20Kontakt%2C%20FAQ%2C%20Impressum%2C%20Datenschutz%20%26%20Rechtliches%2C%20AGB</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::Link" x="1140" y="96" w="-1" h="-1" measuredW="45" measuredH="25" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Logout</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Link" x="429" y="207" w="-1" h="-1" measuredW="62" measuredH="25" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Playlisten</text>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::Link" x="429" y="247" w="-1" h="-1" measuredW="77" measuredH="25" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespots</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Link" x="428" y="336" w="-1" h="-1" measuredW="83" measuredH="25" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Einstellungen</text>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Link" x="429" y="376" w="-1" h="-1" measuredW="72" measuredH="25" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Epic-News</text>
+      </controlProperties>
+    </control>
+    <control controlID="31" controlTypeID="com.balsamiq.mockups::Link" x="427" y="167" w="-1" h="-1" measuredW="69" measuredH="25" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Dashboard</text>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Link" x="429" y="290" w="-1" h="-1" measuredW="77" measuredH="25" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Epic-Player</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Paragraph" x="718" y="178" w="145" h="30" measuredW="200" measuredH="140" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Video%20hochladen</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::ProgressBar" x="718" y="361" w="111" h="20" measuredW="100" measuredH="20" zOrder="13" locked="false" isInGroup="-1"/>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::StickyNote" x="885" y="323" w="209" h="96" measuredW="109" measuredH="123" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>zeigt%20den%20Upload-%20und%20Konvertierungsfortschritt%20an</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::TextInput" x="721" y="506" w="140" h="-1" measuredW="79" measuredH="29" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="718" y="481" w="-1" h="-1" measuredW="77" measuredH="25" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Video-Tags</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::TextInput" x="718" y="437" w="140" h="-1" measuredW="79" measuredH="29" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::Label" x="719" y="416" w="-1" h="-1" measuredW="122" measuredH="25" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Video-Bezeichnung</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::Image" x="712" y="210" w="124" h="126" measuredW="225" measuredH="233" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <src>./assets/video_upload.png</src>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Canvas" x="712" y="600" w="121" h="111" measuredW="100" measuredH="70" zOrder="20" locked="false" isInGroup="-1"/>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Image" x="742" y="608" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::Image" x="727" y="623" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="72" controlTypeID="com.balsamiq.mockups::Image" x="868" y="613" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Label" x="567" y="615" w="-1" h="-1" measuredW="44" measuredH="25" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Heute</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::Label" x="565" y="774" w="-1" h="-1" measuredW="54" measuredH="25" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Gestern</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Canvas" x="712" y="763" w="121" h="111" measuredW="100" measuredH="70" zOrder="26" locked="false" isInGroup="-1"/>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Image" x="742" y="771" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Image" x="727" y="786" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Canvas" x="855" y="762" w="121" h="111" measuredW="100" measuredH="70" zOrder="29" locked="false" isInGroup="-1"/>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Image" x="868" y="785" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::Image" x="882" y="772" w="-1" h="-1" measuredW="77" measuredH="79" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="84" controlTypeID="com.balsamiq.mockups::StickyNote" x="1063" y="608" w="197" h="128" measuredW="109" measuredH="123" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Werbespots%20mit%20gleichen%20Tags%20werden%20gemeinsam%20in%20einer%20Gruppe%20angezeigt</text>
+      </controlProperties>
+    </control>
+    <control controlID="85" controlTypeID="com.balsamiq.mockups::Label" x="527" y="568" w="-1" h="-1" measuredW="152" measuredH="25" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Ver%F6ffentlichungsdatum</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

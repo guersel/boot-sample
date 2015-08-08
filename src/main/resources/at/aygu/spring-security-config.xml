@@ -1,0 +1,75 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:security="http://www.springframework.org/schema/security"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans
+          http://www.springframework.org/schema/beans/spring-beans.xsd
+          http://www.springframework.org/schema/security
+          http://www.springframework.org/schema/security/spring-security.xsd">
+   	
+<!--     <security:debug/> -->
+    
+    <!-- Static web resources must be accessible -->
+   	<security:http pattern="/css/**" security="none" />
+   	<security:http pattern="/js/**" security="none" />
+   	<security:http pattern="/img/**" security="none" />
+   	<security:http pattern="/webjars/**" security="none" />
+   	<security:http pattern="/components/**" security="none" />
+   	
+   	<!-- Accessible paths -->
+   	<security:http pattern="/" security="none" />
+   	<security:http pattern="/signup" security="none" />
+   	<security:http pattern="/signin" security="none" />
+   	<security:http pattern="/signin/failed" security="none" />
+   	   	
+   	
+   	<!-- Rest webservice root path -->
+   	<security:http pattern="/api/**" create-session="stateless">
+   		<security:intercept-url pattern="/api/**" access="ROLE_USER"/>
+   		
+   		<!-- This filter must be processed before the login form filter, because of the pattern attribute -->
+   		<security:custom-filter ref="apiAuthenticationFilter" before="FORM_LOGIN_FILTER"/>
+   		   		
+   		<security:http-basic />
+   	</security:http>
+   	
+   	<!-- Secured paths -->
+   	<security:http pattern="/**">
+   		<security:intercept-url pattern="/**" access="ROLE_USER"/>
+   		
+   		<security:form-login login-page="/" username-parameter="username" password-parameter="password"
+   						default-target-url="/dashboard" always-use-default-target="true" 
+   						authentication-failure-url="/signin/failed" />
+   		
+   		<security:logout invalidate-session="true" delete-cookies="JSESSIONID" 
+   						logout-url="/logout" 
+   						logout-success-url="/"/>
+   	</security:http>
+   	
+   	<security:authentication-manager alias="authenticationManager">
+   		<security:authentication-provider user-service-ref="personServiceImpl">
+   			<security:password-encoder ref="bcryptEncoder" base64="true" />
+   		</security:authentication-provider>
+   	</security:authentication-manager>
+   	
+   	<security:authentication-manager alias="apiAuthenticationManager">
+   		<security:authentication-provider user-service-ref="personServiceImpl">
+   			<security:password-encoder ref="bcryptEncoder" base64="true" />
+   		</security:authentication-provider>
+   	</security:authentication-manager>
+   	
+   	<bean name="bcryptEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder" />
+   	
+   	<bean id="authenticationFilter" class="org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter">
+  		<property name="authenticationManager" ref="authenticationManager"/>
+	</bean>
+	
+	<bean id="apiAuthenticationFilter" class="org.springframework.security.web.authentication.www.BasicAuthenticationFilter">
+  		<property name="authenticationManager" ref="apiAuthenticationManager"/>
+  		<property name="authenticationEntryPoint" ref="apiAuthenticationEntryPoint"/>
+	</bean>
+	
+	<bean id="apiAuthenticationEntryPoint" class="org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint">
+  		<property name="realmName" value="Realm-Epic"/>
+	</bean>
+   	
+</beans>

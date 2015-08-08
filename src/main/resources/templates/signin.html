@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" layout:decorator="layouts/standard">
+	<body>		
+		<div class="row" layout:fragment="content">
+			<div class="small-6 small-centered columns">
+				<form action="#" th:action="@{/j_spring_security_check}" th:object="${person}" method="post">
+			        <fieldset>
+			            <legend th:text="#{signin.formTitle}"></legend>
+						
+						<div th:if="${!#strings.isEmpty(loginErrorMessage)}">
+							<ul>
+								<li th:text="${loginErrorMessage}" class="errorMessage"></li>
+							</ul>
+						</div>
+						
+						<!-- Username or Email -->
+			            <div class="row">
+			                <div class="small-12 columns">
+			                    <input id="username" type="text" th:field="*{username}" th:placeholder="#{general.usernameOrEmail}" />
+			                </div>
+			            </div>
+			            
+			            <!-- Password -->
+			            <div class="row">
+			                <div class="small-12 columns">
+			                    <input id="password" type="password" th:field="*{password}" th:placeholder="#{general.password}"/>
+			                </div>
+			            </div>
+			            
+			            <!-- Submit button -->
+			            <div class="row">
+			                <div class="small-12 columns">
+			                    <button id="signup" class="tiny button" >
+			                      <span th:text="#{signin.submitButton}"/>
+			                    </button>
+			                </div>
+			            </div>
+			        </fieldset>
+			    </form>
+			</div>			
+		</div>
+	</body>
+</html>

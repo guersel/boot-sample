@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <title th:text="#{welcome}"></title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/normalize.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/foundation.css}"/>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/epic.css}"/>
+    <script th:src="@{/js/vendor/custom.modernizr.js}"></script>    
+</head>
+<body>
+	
+	<div style="width: 600px; margin-left: auto; margin-right: auto;">
+	    <form action="#" th:action="@{/register}" th:object="${person}" method="post">
+	        <fieldset>
+	            <legend th:text="#{registration.title}"></legend>
+				
+				<!-- Username -->
+	            <div class="row">
+	                <div class="small-12 columns">
+	                	<span th:if="${#fields.hasErrors('username')}" th:errors="*{username}"></span>
+	                    <input id="username" type="text" th:field="*{username}" th:placeholder="#{person.username}" />
+	                </div>
+	            </div>
+	            
+	            <!-- Email -->
+	            <div class="row">
+	                <div class="small-12 columns">
+	                	<span th:if="${#fields.hasErrors('email')}" th:errors="*{email}"></span>
+	                    <input id="email" type="text" th:field="*{email}" th:placeholder="#{person.email}"/>
+	                </div>
+	            </div>
+	            
+	            <!-- Password -->
+	            <div class="row">
+	                <div class="small-12 columns">
+	                	<span th:if="${#fields.hasErrors('password')}" th:errors="*{password}"></span>
+	                    <input id="password" type="password" th:field="*{password}" th:placeholder="#{person.password}"/>
+	                </div>
+	            </div>
+	            
+	            <!-- Password confirmation -->
+	            <div class="row">
+	                <div class="small-12 columns">
+	                	<span th:if="${#fields.hasErrors('passwordConfirmation')}" th:errors="*{passwordConfirmation}"></span>
+	                    <input id="passwordConfirmation" type="password" th:field="*{passwordConfirmation}" th:placeholder="#{person.passwordConfirmation}"/>
+	                </div>
+	            </div>
+	            
+	            <!-- Submit button -->
+	            <div class="row">
+	                <div class="small-12 columns">
+	                    <button id="signup" class="small button" >
+	                      <span th:text="#{signup}"/>
+	                    </button>
+	                </div>
+	            </div>
+	        </fieldset>
+	    </form>
+	</div>
+
+    <script th:src="@{/js/vendor/jquery.js}"></script>
+    <script th:src="@{/js/foundation/foundation.js}"></script>
+    <script>
+        $(document).foundation();
+    </script>
+</body>
+</html>

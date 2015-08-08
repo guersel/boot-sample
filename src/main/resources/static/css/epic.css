@@ -1,0 +1,17 @@
+/** Debug styles **/
+.border-red {
+    border: 1px solid red;
+}
+
+.border-green {
+    border: 1px solid green;
+}
+
+.errorMessage {
+	color: red;
+	list-style-type: none;
+}
+
+.fieldError {
+	border: 1px solid red;
+}

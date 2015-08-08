@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" layout:decorator="layouts/leftsidebar">
+	
+	<div layout:fragment="content">
+		<div ng-app="dashboard" ng-controller="UserCrtl">
+			<h2>Dynamische Datentabelle</h2>
+			<h2>{{name}}</h2>
+			<sortable-table></sortable-table>
+			
+		</div>
+						
+	</div>
+	
+	<script layout:fragment="pageScript" type="text/javascript" th:src="@{/js/dashboard.js}"></script>
+</html>
